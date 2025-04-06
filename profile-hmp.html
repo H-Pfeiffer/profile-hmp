@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Profile - HMP</title>
+    <style>
+        body{
+            background-color:rgb(249, 238, 234);
+            margin-left: 5%;
+        }
+        td, th {
+            border: 1px solid black;
+            padding: 15px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Profile - Heather Pfeiffer</h1>
+    <audio src="audio/time-166273.mp3" controls loop>
+        Your browser does not support HTML5 audio. Here is <a href="audio/time-166273.mp3">a link to the audio</a> instead.
+    </audio>
+
+    <section id="section-1">
+        <figure>
+            <img src="img/me.png" alt="image of Heather" width="20%"/>
+            <figcaption>This is me</figcaption>
+        </figure><br>
+        <h2>About me</h2>
+        <ul>
+            <li>Born in <em>Orlando, Florida</em></li>
+            <li>Live in Celebration, Florida</li>
+            <li>Lived in <em>Shanghai</em> for many years and speak Chinese</li>
+            <li>Am a pescatarian</li>
+        </ul>
+    </section>
+
+    <figure>
+        <img src="img/dog.png" alt="image of Heather's Cavalier King Charles Spaniel dog" width="20%"/>
+        <figcaption>My <a href="https://www.akc.org/dog-breeds/cavalier-king-charles-spaniel/">CKC Spaniel</a> (a.k.a. lady-and-the-tramp pup)</figcaption>
+    </figure>
+
+    <section id="section-2"><br>
+        <h2>Interests</h2>
+        <ol>
+            <li><strong>tech development</strong> & Ai</li>
+            <li>swimming & culinary arts</li>
+            <li><strong>traveling</strong> & spontaneous trips with the family</li>
+            <li>education & <strong>continuous learning</strong></li>
+        </ol>
+    </section>
+
+    <section id="section-3"><br>
+        <h2>Education</h2>
+            <table>
+                <thead>
+                    <th>Education</th>
+                    <th>type</th>
+                    <th>Concentration</th>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Nucamp</td>
+                        <td>certificate</td>
+                        <td>Backend with Python, SQL & DevOps</td>
+                    </tr>
+                    <tr>
+                        <td>Microsoft Azure</td>
+                        <td>certificate</td>
+                        <td>Azure AI Fundamentals (AI-900)</td>
+                    </tr>
+                    <tr>
+                        <td>Codesmith</td>
+                        <td>certificate</td>
+                        <td>Full Stack Developmnt</td>
+                    </tr>
+                    <tr>
+                        <td>University of West Florida</td>
+                        <td>Masters</td>
+                        <td>Education, M.Ed</td>
+                    </tr>
+                </tbody>
+            </table>
+    </section>
+
+    <section id="section-4"><br><br><br>
+        <fieldset>
+            <legend>LET'S CONNECT!</legend>
+            <!-- in the params, %27 means apostrophe, %20 means space -->
+            <!-- "mailto:heather.pfeiffer@gmail.com?subject=Let%27s%20chat&body=Hello,%20Heather" - add dynamic JS -->
+            <form action="mailto:heather.pfeiffer@gmail.com" method="get">
+                Name:<br>
+                <input type="text" name="name"/><br>
+                Email:<br>
+                <input type="text" name="email"/><br>
+                Comment:<br>
+                <textarea name="comment" rows="4" cols="100"></textarea><br>
+                <input type="submit" value="Send"/>
+                <a href="mailto:heather.pfeiffer@gmail.com?subject=Let's%20chat&body=Hi%20Heather,"><br>Send with Template Email</a>
+            </form></span>
+        </fieldset>
+    </section>
+</body>
+</html>
